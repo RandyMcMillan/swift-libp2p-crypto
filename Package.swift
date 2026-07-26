@@ -30,9 +30,9 @@ let package = Package(
     ],
     dependencies: [
         // Multibase Support
-        .package(path: "../swift-multibase"),
+        .package(url: "https://github.com/randymcmillan/swift-multibase.git", branch: "gnostr"),
         // Multihash Support
-        .package(path: "../swift-multihash"),
+        .package(url: "https://github.com/randymcmillan/swift-multihash.git", branch: "gnostr"),
         // Protobuf Marshaling
         .package(url: "https://github.com/apple/swift-protobuf.git", .upToNextMajor(from: "1.33.3")),
         // Secp256k1 Support

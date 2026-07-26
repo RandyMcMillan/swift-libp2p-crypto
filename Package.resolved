@@ -1,5 +1,5 @@
 {
-  "originHash" : "1cc67d5ab6cab638ea0f039da1541fc16b8b1ff76d104cf7b4c1edcbf387e380",
+  "originHash" : "6d419adb4eb17c18443a77bca4cddd1b8675ac038b291d3195053b4385c3d84b",
   "pins" : [
     {
       "identity" : "cryptoswift",
@@ -47,12 +47,30 @@
       }
     },
     {
+      "identity" : "swift-multibase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/randymcmillan/swift-multibase.git",
+      "state" : {
+        "branch" : "gnostr",
+        "revision" : "a7b50abbce26640a565640ff928376965b600e3d"
+      }
+    },
+    {
       "identity" : "swift-multicodec",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/randymcmillan/swift-multicodec.git",
       "state" : {
         "branch" : "gnostr",
         "revision" : "13eceb5d42820c868a5d678be190be78cb8455ae"
+      }
+    },
+    {
+      "identity" : "swift-multihash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/randymcmillan/swift-multihash.git",
+      "state" : {
+        "branch" : "gnostr",
+        "revision" : "9efe8db010b44b198553852b5900f645153d7387"
       }
     },
     {
